@@ -9,18 +9,18 @@ Alternatively the data is also available on Kaggle. Kaggle is a subsidiary of Go
 # Data Description
 HAM10000 ("Human Against Machine with 10000 training images") dataset is a large collection of multi-source dermatoscopic images of common pigmented skin lesions from different populations, acquired and stored by different modalities. The dataset includes lesions with multiple images, which can be tracked by the lesion_id-column within the HAM10000_metadata file. The final dataset consists of 10015 dermatoscopic images and serve as a training set for academic machine learning purposes. It consists of 7 columns and 10015 rows. The columns are as listed below exactly how they are present in the dataset:
 
-    lesion_id: - The unique id of a skin lesion for a patient.
-    image_id: - Contains unique values referring to each of the image present in the image file.
-    dx: - A representative collection of all diagnostics category in the realm of pigmented skin lesions. These are of 7 types namely Akiec, bcc, bkl, df, mel, nv and vasc.
-    dx_type:- Diagnostics type. These are of 4 types namely hist, follow_up, consensus and confocal.
-    age: - The age of the patients. These range from 0 to 85 years of age.
-    sex: - The sex orientation of the patient as male, female or unknowns.
-    localization: - The certain part of the body where the lesion is limited to. These are of 15 types namely abdomen,acral, back, chest, ear, face, foot, genital, hand, lower extremity, neck, scalp, trunk, upper extremity and unknowns.
+- lesion_id: - The unique id of a skin lesion for a patient.
+- image_id: - Contains unique values referring to each of the image present in the image file.
+- dx: - A representative collection of all diagnostics category in the realm of pigmented skin lesions. These are of 7 types namely Akiec, bcc, bkl, df, mel, nv and vasc.
+- dx_type:- Diagnostics type. These are of 4 types namely hist, follow_up, consensus and confocal.
+- age: - The age of the patients. These range from 0 to 85 years of age.
+- sex: - The sex orientation of the patient as male, female or unknowns.
+- localization: - The certain part of the body where the lesion is limited to. These are of 15 types namely abdomen,acral, back, chest, ear, face, foot, genital, hand, lower extremity, neck, scalp, trunk, upper extremity and unknowns.
 # Methology
-     K-Nearest Neighbour
-     Support Vector Machine
-     Artificial Neural Network
-     Convolutional Neural Network
+- K-Nearest Neighbour
+- Support Vector Machine
+- Artificial Neural Network
+- Convolutional Neural Network
 # Results and Comparison
 **Table:** Comparison of Classifiers
 | CLASSIFIER | ACCURACY | TRAINING TIME |
